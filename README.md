@@ -1,8 +1,6 @@
 # jekyll-theme-material
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes` and your sass in `_sass`. To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
-
-TODO: Delete this and the text above, and describe your gem
+This theme is based on <a href='https://getmdl.io/' target='blank'>Material Design Lite (MDL)</a>
 
 ## Installation
 
@@ -28,11 +26,36 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, and/or sass.
+### Customization
+
+You may choose to customize your sites default colors by defining the below two variables defined in the `_config.yml`:
+
+```yml
+color_primary: <desired-color>
+color_accent: <desired-color>
+```
+
+**Note:** These colors must be one of the supported colors defined by MDL, which can be found <a href='https://material.io/guidelines/style/color.html#color-color-tool' target='blank'>here</a>
+
+### Configuration variables
+
+Material will respect the following variables, if set in your site's `_config.yml`:
+
+```yml
+title: [The title of your site]
+description: [A short description of your site's purpose]
+```
+
+Additionally, you may choose to set the following optional variables:
+
+```yml
+show_downloads: ["true" or "false" to indicate whether to provide a download URL]
+google_analytics: [Your Google Analytics tracking ID]
+```
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/ENG618/jekyll-theme-material. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## Development
 
