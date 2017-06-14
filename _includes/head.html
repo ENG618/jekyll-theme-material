@@ -20,8 +20,7 @@
   <!-- Page styles -->
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.min.css">
-  <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.red-deep_purple.min.css" />
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.{% if site.color_primary %}{{ site.color_primary }}{% else %}blue_grey{% endif %}-{% if site.color_accent %}{{ site.color_accent }}{% else %}red{% endif %}.min.css" />
   <link rel="stylesheet" href="{{ " /css/styles.css " | prepend: site.baseurl }}">
 
   <style>
