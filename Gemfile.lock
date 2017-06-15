@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    jekyll-theme-material (0.1.0)
+    jekyll-theme-material (0.0.1)
       jekyll (~> 3.4)
 
 GEM
