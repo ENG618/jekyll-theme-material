@@ -17,6 +17,7 @@ And add this line to your Jekyll site's `_config.yml`:
 ```yaml
 theme: jekyll-theme-material
 ```
+<!-- TODO: Remove me -->
 
 And then execute:
 
