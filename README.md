@@ -33,6 +33,7 @@ Or install it yourself as:
 
 
 <!-- TODO: Remove me -->
+<!-- TODO: Remove me -->
 
 You may choose to customize your sites default colors by defining the below two variables defined in the `_config.yml`:
 
