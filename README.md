@@ -31,6 +31,9 @@ Or install it yourself as:
 
 ### Customization
 
+
+<!-- TODO: Remove me -->
+
 You may choose to customize your sites default colors by defining the below two variables defined in the `_config.yml`:
 
 ```yml
