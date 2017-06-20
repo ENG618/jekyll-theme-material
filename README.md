@@ -10,6 +10,8 @@ Add this line to your Jekyll site's `Gemfile`:
 gem "jekyll-theme-material"
 ```
 
+<!-- TODO: Remove me -->
+
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
